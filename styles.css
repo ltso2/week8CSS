@@ -1,0 +1,52 @@
+body {
+    font-size: large;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 60px;
+}
+
+div {
+    font-weight: 200;
+    padding-left: 20px;
+    font-size: 40px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 5px;
+    background-color: azure;
+
+}
+
+.shadow-text {
+    text-shadow: gray 1px 1px;
+}
+
+img {
+    width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-block: 1px solid black;
+    
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+tr:hover {
+    background-color: antiquewhite;
+}
+
+#large-paragraph {
+    font-size: 25px;
+}
